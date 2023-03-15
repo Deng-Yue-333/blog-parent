@@ -1,13 +1,13 @@
-package com.mszl.bolgapi;
+package com.mszl.blogapi;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class BolgApiApplication {
+public class BlogApiApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(BolgApiApplication.class, args);
+        SpringApplication.run(BlogApiApplication.class, args);
     }
 
 }
