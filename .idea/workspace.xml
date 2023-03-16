@@ -1,0 +1,434 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="74e7ebf0-17c2-45d7-ba02-9e3a2265f7e4" name="变更" comment="">
+      <change afterPath="$PROJECT_DIR$/blog-admin/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/java/com/mszlu/blog/admin/AdminApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/java/com/mszlu/blog/admin/config/MybatisPlusConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/java/com/mszlu/blog/admin/config/SecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/java/com/mszlu/blog/admin/controller/AdminController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/java/com/mszlu/blog/admin/mapper/AdminMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/java/com/mszlu/blog/admin/mapper/PermissionMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/java/com/mszlu/blog/admin/model/params/PageParam.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/java/com/mszlu/blog/admin/pojo/Admin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/java/com/mszlu/blog/admin/pojo/Permission.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/java/com/mszlu/blog/admin/service/AdminService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/java/com/mszlu/blog/admin/service/AuthService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/java/com/mszlu/blog/admin/service/PermissionService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/java/com/mszlu/blog/admin/service/SecurityUserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/java/com/mszlu/blog/admin/vo/PageResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/java/com/mszlu/blog/admin/vo/Result.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/css/bootstrap-datetimepicker.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/css/bootstrap/assets/ie10-viewport-bug-workaround.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/css/bootstrap/bootstrap-theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/css/bootstrap/bootstrap-theme.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/css/bootstrap/bootstrap-theme.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/css/bootstrap/bootstrap-theme.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/css/bootstrap/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/css/bootstrap/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/css/bootstrap/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/css/bootstrap/bootstrap.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/css/dashboard.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/css/font/summernote.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/css/font/summernote.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/css/font/summernote.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/css/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/css/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/css/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/css/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/css/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/css/login.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/css/login_style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/css/pages-login-manage.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/css/signin.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/css/spin.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/css/summernote.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/css/webbase.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/img/bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/img/head_img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/img/icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/img/left_hidden.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/js/angular-select2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/js/axios-0.18.0.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/js/bootstrap-datetimepicker.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/js/bootstrap/assets/ie-emulation-modes-warning.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/js/bootstrap/assets/ie10-viewport-bug-workaround.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/js/bootstrap/assets/ie8-responsive-file-warning.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/js/bootstrap/assets/vendor/holder.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/js/handlebars.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/js/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/js/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/js/moment-with-locales.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/js/plugins/birthday/birthday.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/js/plugins/citypicker/distpicker.data.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/js/plugins/citypicker/distpicker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/js/plugins/jquery-placeholder/jquery.placeholder.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/js/plugins/jquery.easing/jquery.easing.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/js/plugins/jquery.jqzoom/jquery.jqzoom.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/js/plugins/jquery.jqzoom/zoom.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/js/plugins/jquery/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/js/plugins/sui/sui.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/js/plugins/upload/uploadPreview.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/js/spin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/js/summernote.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/js/user_main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/js/version.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/js/vue.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/js/xlsx.full.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/pages/main.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/pages/permission.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/adminLTE/css/AdminLTE.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/adminLTE/css/AdminLTE.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/adminLTE/css/alt/AdminLTE-bootstrap-social.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/adminLTE/css/alt/AdminLTE-bootstrap-social.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/adminLTE/css/alt/AdminLTE-fullcalendar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/adminLTE/css/alt/AdminLTE-fullcalendar.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/adminLTE/css/alt/AdminLTE-select2.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/adminLTE/css/alt/AdminLTE-select2.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/adminLTE/css/alt/AdminLTE-without-plugins.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/adminLTE/css/alt/AdminLTE-without-plugins.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/adminLTE/css/skins/_all-skins.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/adminLTE/css/skins/_all-skins.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/adminLTE/css/skins/skin-black-light.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/adminLTE/css/skins/skin-black-light.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/adminLTE/css/skins/skin-black.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/adminLTE/css/skins/skin-black.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/adminLTE/css/skins/skin-blue-light.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/adminLTE/css/skins/skin-blue-light.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/adminLTE/css/skins/skin-blue.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/adminLTE/css/skins/skin-blue.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/adminLTE/css/skins/skin-green-light.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/adminLTE/css/skins/skin-green-light.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/adminLTE/css/skins/skin-green.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/adminLTE/css/skins/skin-green.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/adminLTE/css/skins/skin-purple-light.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/adminLTE/css/skins/skin-purple-light.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/adminLTE/css/skins/skin-purple.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/adminLTE/css/skins/skin-purple.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/adminLTE/css/skins/skin-red-light.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/adminLTE/css/skins/skin-red-light.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/adminLTE/css/skins/skin-red.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/adminLTE/css/skins/skin-red.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/adminLTE/css/skins/skin-yellow-light.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/adminLTE/css/skins/skin-yellow-light.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/adminLTE/css/skins/skin-yellow.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/adminLTE/css/skins/skin-yellow.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/adminLTE/img/avatar.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/adminLTE/img/avatar04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/adminLTE/img/avatar2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/adminLTE/img/avatar3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/adminLTE/img/avatar5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/adminLTE/img/boxed-bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/adminLTE/img/boxed-bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/adminLTE/img/credit/american-express.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/adminLTE/img/credit/cirrus.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/adminLTE/img/credit/mastercard.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/adminLTE/img/credit/mestro.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/adminLTE/img/credit/paypal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/adminLTE/img/credit/paypal2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/adminLTE/img/credit/visa.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/adminLTE/img/default-50x50.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/adminLTE/img/icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/adminLTE/img/photo1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/adminLTE/img/photo2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/adminLTE/img/photo3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/adminLTE/img/photo4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/adminLTE/img/user1-128x128.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/adminLTE/img/user2-160x160.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/adminLTE/img/user3-128x128.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/adminLTE/img/user4-128x128.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/adminLTE/img/user5-128x128.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/adminLTE/img/user6-128x128.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/adminLTE/img/user7-128x128.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/adminLTE/img/user8-128x128.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/adminLTE/js/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/adminLTE/js/app.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/adminLTE/js/demo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/adminLTE/js/pages/dashboard.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/adminLTE/js/pages/dashboard2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/angularjs/angular-animate.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/angularjs/angular-route.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/angularjs/angular.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/angularjs/pagination.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/angularjs/pagination.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/elementui/fonts/element-icons.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/elementui/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/elementui/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/font-awesome/css/font-awesome.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/font-awesome/css/font-awesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/font-awesome/fonts/FontAwesome.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/font-awesome/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/font-awesome/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/font-awesome/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/font-awesome/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/font-awesome/fonts/fontawesome-webfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/jQuery/jquery-2.2.3.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/quill/examples/bubble.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/quill/examples/full.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/quill/examples/snow.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/quill/quill.bubble.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/quill/quill.core.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/quill/quill.core.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/quill/quill.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/quill/quill.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/quill/quill.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/quill/quill.snow.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/quill/vue-quill-editor.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/select2/.bower.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/select2/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/select2/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/select2/angular-select2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/select2/bower.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/select2/component.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/select2/composer.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/select2/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/select2/release.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/select2/select2-bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/select2/select2-spinner.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/select2/select2.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/select2/select2.jquery.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/select2/select2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/select2/select2.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/select2/select2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/select2/select2_locale_ar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/select2/select2_locale_bg.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/select2/select2_locale_ca.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/select2/select2_locale_cs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/select2/select2_locale_da.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/select2/select2_locale_de.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/select2/select2_locale_el.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/select2/select2_locale_en.js.template" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/select2/select2_locale_es.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/select2/select2_locale_et.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/select2/select2_locale_eu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/select2/select2_locale_fa.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/select2/select2_locale_fi.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/select2/select2_locale_fr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/select2/select2_locale_gl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/select2/select2_locale_he.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/select2/select2_locale_hr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/select2/select2_locale_hu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/select2/select2_locale_id.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/select2/select2_locale_is.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/select2/select2_locale_it.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/select2/select2_locale_ja.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/select2/select2_locale_ka.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/select2/select2_locale_ko.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/select2/select2_locale_lt.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/select2/select2_locale_lv.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/select2/select2_locale_mk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/select2/select2_locale_ms.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/select2/select2_locale_nl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/select2/select2_locale_no.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/select2/select2_locale_pl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/select2/select2_locale_pt-BR.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/select2/select2_locale_pt-PT.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/select2/select2_locale_ro.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/select2/select2_locale_rs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/select2/select2_locale_ru.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/select2/select2_locale_sk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/select2/select2_locale_sv.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/select2/select2_locale_th.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/select2/select2_locale_tr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/select2/select2_locale_uk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/select2/select2_locale_vi.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/select2/select2_locale_zh-CN.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/select2/select2_locale_zh-TW.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/resources/static/plugins/select2/select2x2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-api/src/main/java/com/mszlu/blog/BlogApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-api/src/main/java/com/mszlu/blog/common/aop/LogAnnotation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-api/src/main/java/com/mszlu/blog/common/aop/LogAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-api/src/main/java/com/mszlu/blog/common/cache/Cache.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-api/src/main/java/com/mszlu/blog/common/cache/CacheAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-api/src/main/java/com/mszlu/blog/config/MybatisPlusConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-api/src/main/java/com/mszlu/blog/config/ThreadPoolConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-api/src/main/java/com/mszlu/blog/config/WebMVCConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-api/src/main/java/com/mszlu/blog/controller/ArticleController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-api/src/main/java/com/mszlu/blog/controller/CategoryController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-api/src/main/java/com/mszlu/blog/controller/CommentsController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-api/src/main/java/com/mszlu/blog/controller/LoginController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-api/src/main/java/com/mszlu/blog/controller/LogoutController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-api/src/main/java/com/mszlu/blog/controller/MaxKeyController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-api/src/main/java/com/mszlu/blog/controller/RegisterController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-api/src/main/java/com/mszlu/blog/controller/TagsController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-api/src/main/java/com/mszlu/blog/controller/TestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-api/src/main/java/com/mszlu/blog/controller/UploadController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-api/src/main/java/com/mszlu/blog/controller/UsersController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-api/src/main/java/com/mszlu/blog/dao/dos/Archives.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-api/src/main/java/com/mszlu/blog/dao/mapper/ArticleBodyMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-api/src/main/java/com/mszlu/blog/dao/mapper/ArticleTagMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-api/src/main/java/com/mszlu/blog/dao/mapper/CategoryMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-api/src/main/java/com/mszlu/blog/dao/mapper/CommentMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-api/src/main/java/com/mszlu/blog/dao/mapper/TagMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-api/src/main/java/com/mszlu/blog/dao/pojo/ArticleBody.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-api/src/main/java/com/mszlu/blog/dao/pojo/ArticleTag.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-api/src/main/java/com/mszlu/blog/dao/pojo/Category.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-api/src/main/java/com/mszlu/blog/dao/pojo/Comment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-api/src/main/java/com/mszlu/blog/handler/AllExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-api/src/main/java/com/mszlu/blog/handler/LoginInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-api/src/main/java/com/mszlu/blog/handler/ViewCountHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-api/src/main/java/com/mszlu/blog/service/CategoryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-api/src/main/java/com/mszlu/blog/service/CommentsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-api/src/main/java/com/mszlu/blog/service/LoginService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-api/src/main/java/com/mszlu/blog/service/SysUserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-api/src/main/java/com/mszlu/blog/service/TagService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-api/src/main/java/com/mszlu/blog/service/ThreadService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-api/src/main/java/com/mszlu/blog/service/impl/CategoryServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-api/src/main/java/com/mszlu/blog/service/impl/CommentsServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-api/src/main/java/com/mszlu/blog/service/impl/LoginServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-api/src/main/java/com/mszlu/blog/service/impl/SysUserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-api/src/main/java/com/mszlu/blog/service/impl/TagServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-api/src/main/java/com/mszlu/blog/service/mq/ArticleListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-api/src/main/java/com/mszlu/blog/utils/HttpContextUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-api/src/main/java/com/mszlu/blog/utils/IpUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-api/src/main/java/com/mszlu/blog/utils/JWTUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-api/src/main/java/com/mszlu/blog/utils/QiniuUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-api/src/main/java/com/mszlu/blog/utils/UserThreadLocal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-api/src/main/java/com/mszlu/blog/vo/ArticleBodyVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-api/src/main/java/com/mszlu/blog/vo/ArticleMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-api/src/main/java/com/mszlu/blog/vo/CategoryVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-api/src/main/java/com/mszlu/blog/vo/CommentVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-api/src/main/java/com/mszlu/blog/vo/ErrorCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-api/src/main/java/com/mszlu/blog/vo/LoginUserVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-api/src/main/java/com/mszlu/blog/vo/TagVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-api/src/main/java/com/mszlu/blog/vo/UserVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-api/src/main/java/com/mszlu/blog/vo/params/ArticleBodyParam.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-api/src/main/java/com/mszlu/blog/vo/params/ArticleParam.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-api/src/main/java/com/mszlu/blog/vo/params/CommentParam.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-api/src/main/java/com/mszlu/blog/vo/params/LoginParam.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-api/src/main/java/com/mszlu/blog/vo/params/PageParams.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-api/src/main/resources/com/mszlu/blog/dao/mapper/ArticleMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-api/src/main/resources/com/mszlu/blog/dao/mapper/TagMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-api/src/test/java/com/mszlu/blog/JasyptTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-api/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-api/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/blog-api/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-api/src/main/java/com/mszlu/blog/BlogApiApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-api/src/main/java/com/mszlu/blog/api/ArticleController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-api/src/main/java/com/mszlu/blog/dao/ArticleMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/blog-api/src/main/java/com/mszlu/blog/dao/mapper/ArticleMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-api/src/main/java/com/mszlu/blog/dao/SysUserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/blog-api/src/main/java/com/mszlu/blog/dao/mapper/SysUserMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-api/src/main/java/com/mszlu/blog/dao/TagMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-api/src/main/java/com/mszlu/blog/dao/pojo/Article.java" beforeDir="false" afterPath="$PROJECT_DIR$/blog-api/src/main/java/com/mszlu/blog/dao/pojo/Article.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-api/src/main/java/com/mszlu/blog/dao/pojo/SysUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/blog-api/src/main/java/com/mszlu/blog/dao/pojo/SysUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-api/src/main/java/com/mszlu/blog/dao/pojo/Tag.java" beforeDir="false" afterPath="$PROJECT_DIR$/blog-api/src/main/java/com/mszlu/blog/dao/pojo/Tag.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-api/src/main/java/com/mszlu/blog/service/ArticleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/blog-api/src/main/java/com/mszlu/blog/service/ArticleService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-api/src/main/java/com/mszlu/blog/service/TagsService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-api/src/main/java/com/mszlu/blog/service/UserService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-api/src/main/java/com/mszlu/blog/service/impl/ArticleServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/blog-api/src/main/java/com/mszlu/blog/service/impl/ArticleServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-api/src/main/java/com/mszlu/blog/service/impl/TagsServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-api/src/main/java/com/mszlu/blog/service/impl/UserServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-api/src/main/java/com/mszlu/blog/vo/ArticleVo.java" beforeDir="false" afterPath="$PROJECT_DIR$/blog-api/src/main/java/com/mszlu/blog/vo/ArticleVo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-api/src/main/java/com/mszlu/blog/vo/Result.java" beforeDir="false" afterPath="$PROJECT_DIR$/blog-api/src/main/java/com/mszlu/blog/vo/Result.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-api/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/blog-api/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-api/src/main/resources/mybatis-config.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-api/src/test/java/com/mszlu/blog/BlogApiApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\Data\maven_repository" />
+        <option name="mavenHome" value="$PROJECT_DIR$/../../Applications/apache-maven-3.9.0" />
+        <option name="useMavenConfig" value="true" />
+        <option name="userSettingsFile" value="D:\Applications\apache-maven-3.9.0\conf\setting.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="workspaceImportEnabled" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2N55k9vBi1ZCjkcChpJDtMbEmT3" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+    <option name="showVisibilityIcons" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "deletionFromPopupRequiresConfirmation": "false",
+    "last_opened_file_path": "D:/Projects/blog-parent",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "MavenSettings",
+    "spring.configuration.checksum": "96453d1633ce139f776869b2623372c6",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.AdminApp">
+    <configuration name="AdminApp" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="blog-admin" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.mszlu.blog.admin.AdminApp" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BlogApp" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="blog-api" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.mszlu.blog.BlogApp" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="74e7ebf0-17c2-45d7-ba02-9e3a2265f7e4" name="变更" comment="" />
+      <created>1678941243745</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1678941243745</updated>
+      <workItem from="1678941244957" duration="810000" />
+      <workItem from="1678942068970" duration="3522000" />
+      <workItem from="1678951941328" duration="2062000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>

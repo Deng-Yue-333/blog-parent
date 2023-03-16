@@ -12,4 +12,3 @@ public class Tag {
     private String tagName;
 
 }
-
